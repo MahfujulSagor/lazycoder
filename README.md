@@ -15,7 +15,7 @@ Boost your C++ development productivity with the CPP Boilerplate Generator exten
 
 ![Example](./assets/snippet-tutorial.gif)
 
-## All C++ Snippets
+## All C++ Code Snippets
 
 | No  | CPP Snippet Short Code | Header Files Include        |
 | :-- | :--------------------- | :-------------------------- |
@@ -35,6 +35,27 @@ Boost your C++ development productivity with the CPP Boilerplate Generator exten
 | 14  | ioit                   | iostream, iterator          |
 | 15  | ioalvec                | iostream, algorithm, vector |
 | 16  | iostackvec             | iostream, stack, vector     |
+
+---
+
+## 📜 Library Inclusion  
+
+| Prefix | Expands To |
+|--------|--------------------------------|
+| `!io`   | `#include <iostream>`        |
+| `!al`   | `#include <algorithm>`       |
+| `!vec`  | `#include <vector>`          |
+| `!str`  | `#include <string>`          |
+| `!set`  | `#include <set>`             |
+| `!map`  | `#include <map>`             |
+| `!pair` | `#include <utility>`         |
+| `!stack` | `#include <stack>`          |
+| `!queue` | `#include <queue>`          |
+| `!deque` | `#include <deque>`          |
+| `!pq` | `#include <queue>`             |
+| `!list` | `#include <list>`            |
+| `!it` | `#include <iterator>`         |
+| `!all` | `#include <bits/stdc++.h>`    |
 
 ---
 

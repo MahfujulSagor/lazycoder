@@ -273,6 +273,118 @@
       ""
     ],
     "description": "Hello, World! in C++"
-  }
+  },
+
+  "Iostream Inclusion" : {
+    "prefix": "!io",
+    "body": [
+      "#include <iostream>",
+      "$0"
+    ],
+  },
+
+  "Algorithm inclusion" : {
+    "prefix": "!al",
+    "body": [
+      "#include <algorithm>",
+      "$0"
+    ],
+  },
+
+  "Vector inclusion" : {
+    "prefix": "!vec",
+    "body": [
+      "#include <vector>",
+      "$0"
+    ],
+  },
+
+  "String inclusion" : {
+    "prefix": "!str",
+    "body": [
+      "#include <string>",
+      "$0"
+    ],
+  },
+
+  "Set inclusion" : {
+    "prefix": "!set",
+    "body": [
+      "#include <set>",
+      "$0"
+    ],
+  },
+
+  "Map inclusion" : {
+    "prefix": "!map",
+    "body": [
+      "#include <map>",
+      "$0"
+    ],
+  },
+
+  "Pair inclusion" : {
+    "prefix": "!pair",
+    "body": [
+      "#include <utility>",
+      "$0"
+    ],
+  },
+
+  "Stack inclusion" : {
+    "prefix": "!stack",
+    "body": [
+      "#include <stack>",
+      "$0"
+    ],
+  },
+
+  "Queue inclusion" : {
+    "prefix": "!queue",
+    "body": [
+      "#include <queue>",
+      "$0"
+    ],
+  },
+
+  "Deque inclusion" : {
+    "prefix": "!deque",
+    "body": [
+      "#include <deque>",
+      "$0"
+    ],
+  },
+
+  "Priority Queue inclusion" : {
+    "prefix": "!pq",
+    "body": [
+      "#include <queue>",
+      "$0"
+    ],
+  },
+
+  "List inclusion" : {
+    "prefix": "!list",
+    "body": [
+      "#include <list>",
+      "$0"
+    ],
+  },
+
+  "Iterator inclusion" : {
+    "prefix": "!it",
+    "body": [
+      "#include <iterator>",
+      "$0"
+    ],
+  },
+
+  "All Inclusion" : {
+    "prefix": "!all",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "$0"
+    ],
+  },
 
 }
