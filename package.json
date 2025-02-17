@@ -1,0 +1,21 @@
+{
+  "name": "lazycoder",
+  "displayName": "Lazy Coder",
+  "description": "A collection of different c++ code snippets",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "icon": "cpp.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "cpp",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
