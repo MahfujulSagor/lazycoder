@@ -6,6 +6,11 @@
   "engines": {
     "vscode": "^1.97.0"
   },
+  "author": {
+    "name": "Mahfujul Sagor",
+    "email": "mahfujulsagor@gmail.com"
+  },
+  "publisher": "mahfujulSagor",
   "keywords": [
     "C++",
     "CPP Snippet",
