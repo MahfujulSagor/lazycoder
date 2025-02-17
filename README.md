@@ -7,7 +7,7 @@ Boost your C++ development productivity with the CPP Boilerplate Generator exten
 ## How to use
 
 **Step 1:** Install CPP Easy Snippet<br>
-**Step 2:** Not Download Yet? [Download Now](https://marketplace.visualstudio.com/items?itemName=LazyCoder.lazycoder)<br>
+**Step 2:** Not Download Yet? [Download Now](https://marketplace.visualstudio.com/items?itemName=MahfujulSagor.lazycoder)<br>
 **Step 3:** Find all snippets below and use as per need.<br>
 **Step 4:** Happy Coding<br>
 
