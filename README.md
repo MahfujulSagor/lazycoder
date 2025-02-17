@@ -1,65 +1,237 @@
-# lazycpp README
+# Lazy Coder
 
-This is the README for your extension "lazycpp". After writing up a brief description, we recommend including the following sections.
+## Description
 
-## Features
+Boost your C++ development productivity with the CPP Boilerplate Generator extension for Visual Studio Code. Say goodbye to repetitive code setup and hello to streamlined project initialization. This extension provides essential C++ boilerplate code snippets and templates, helping you kickstart your projects swiftly and efficiently.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## How to use
 
-For example if there is an image subfolder under your extension project workspace:
+**Step 1:** Install CPP Easy Snippet<br>
+**Step 2:** Not Download Yet? [Download Now](https://marketplace.visualstudio.com/items?itemName=LazyCoder.lazycoder)<br>
+**Step 3:** Find all snippets below and use as per need.<br>
+**Step 4:** Happy Coding<br>
 
-\!\[feature X\]\(images/feature-x.png\)
+## Watch Tutorial
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+![Example](./assets/snippet-tutorial.gif)
 
-## Requirements
+## All C++ Snippets
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+| No  | CPP Snippet Short Code | Header Files Include        |
+| :-- | :--------------------- | :-------------------------- |
+| 1   | io                     | iostream                    |
+| 2   | cpphello               | iostream, helloworld        |
+| 3   | ioal                   | iostream, algorithm         |
+| 4   | iovec                  | iostream, vector            |
+| 5   | iostr                  | iostream, string            |
+| 6   | ioset                  | iostream, set               |
+| 7   | iomap                  | iostream, map               |
+| 8   | iopair                 | iostream, utility           |
+| 9   | iostack                | iostream, stack             |
+| 10  | ioque                  | iostream, queue             |
+| 11  | iodeque                | iostream, deque             |
+| 12  | iopq                   | iostream, queue             |
+| 13  | iolist                 | iostream, list              |
+| 14  | ioit                   | iostream, iterator          |
+| 15  | ioalvec                | iostream, algorithm, vector |
+| 16  | iostackvec             | iostream, stack, vector     |
 
 ---
 
-## Working with Markdown
+### View Snippet Codes
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+**1. io = iostream**
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    return 0;
+}
+```
 
-## For more information
+**2. cpphello = iostream + hello**
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+```cpp
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "Hello World!" << endl;
+    return 0;
+}
+```
+
+**3. ioal = iostream + algorithm**
+
+```cpp
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main()
+{
+    return 0;
+}
+```
+
+**4. iovec = iostream + vector**
+
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+int main()
+{
+    return 0;
+}
+```
+
+**5. iostr = iostream + string**
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    return 0;
+}
+```
+
+**6. ioset = iostream + set**
+
+```cpp
+#include <iostream>
+#include <set>
+using namespace std;
+int main()
+{
+    return 0;
+}
+```
+
+**7. iomap = iostream + map**
+
+```cpp
+#include<iostream>
+#include <map>
+using namespace std;
+int main()
+{
+    return 0;
+}
+```
+
+**8. iopair = iostream + utility**
+
+```cpp
+#include<iostream>
+#include <utility>
+using namespace std;
+int main()
+{
+    return 0;
+}
+```
+
+**9. iostack = iostream + stack**
+
+```cpp
+#include <iostream>
+#include <stack>
+using namespace std;
+int main()
+{
+    return 0;
+}
+```
+
+**10. ioque = iostream + queue**
+
+```cpp
+#include<iostream>
+#include <queue>
+using namespace std;
+int main()
+{
+    return 0;
+}
+```
+
+**11. iodeque = iostream + deque**
+
+```cpp
+#include<iostream>
+#include <deque>
+using namespace std;
+int main()
+{
+    return 0;
+}
+```
+
+**12. iopq = iostream + queue**
+
+```cpp
+#include<iostream>
+#include <queue>
+using namespace std;
+int main()
+{
+    return 0;
+}
+```
+
+**13. iolist = iostream + list**
+
+```cpp
+#include<iostream>
+#include <list>
+using namespace std;
+int main()
+{
+    return 0;
+}
+```
+
+**14. ioit = iostream + iterator**
+
+```cpp
+#include<iostream>
+#include <iterator>
+using namespace std;
+int main()
+{
+    return 0;
+}
+```
+
+**15. ioalvec = iostream + algorithm + vector**
+
+```cpp
+#include<iostream>
+#include <algorithm>
+#include <vector>
+using namespace std;
+int main()
+{
+    return 0;
+}
+```
+
+**16. iostackvec = iostream + stack + vector**
+
+```cpp
+#include <iostream>
+#include <stack>
+#include <vector>
+using namespace std;
+int main()
+{
+    return 0;
+}
+```
 
 **Enjoy!**

@@ -6,6 +6,15 @@
   "engines": {
     "vscode": "^1.97.0"
   },
+  "keywords": [
+    "C++",
+    "CPP Snippet",
+    "Snippet",
+    "C++ Boilerplates",
+    "CPP Biolerplate",
+    "C++ Extension",
+    "CPP Extension"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Mahfujul-Sagor/lazycoder"

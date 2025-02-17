@@ -1,14 +1,278 @@
 {
-  "Boiler Plate" : {
-    "prefix": "iostream",
+  "Cpp All Template": {
+    "prefix": "ioall",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates all header file and main function."
+  },
+  "Cpp iostream Template": {
+    "prefix": "io",
     "body": [
       "#include <iostream>",
       "using namespace std;",
-      "",
-      "int main() {",
-      "   return 0;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
       "}"
     ],
-    "description": "Boiler Plate for C++"
+    "description": "Creates iostream header file and main function."
+  },
+
+  "Cpp algorithm Template": {
+    "prefix": "ioal",
+    "body": [
+      "#include <iostream>",
+      "#include <algorithm>",
+      "using namespace std;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, algorithm header file and main function."
+  },
+
+  "Cpp vector Template": {
+    "prefix": "iovec",
+    "body": [
+      "#include <iostream>",
+      "#include <vector>",
+      "using namespace std;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, vector header file and main function."
+  },
+
+  "Cpp string Template": {
+    "prefix": "iostr",
+    "body": [
+      "#include <iostream>",
+      "#include <string>",
+      "using namespace std;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, string header file and main function."
+  },
+
+  "Cpp set Template": {
+    "prefix": "ioset",
+    "body": [
+      "#include <iostream>",
+      "#include <set>",
+      "using namespace std;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, set header file and main function."
+  },
+
+  "Cpp map Template": {
+    "prefix": "iomap",
+    "body": [
+      "#include <iostream>",
+      "#include <map>",
+      "using namespace std;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, map header file and main function."
+  },
+
+  "Cpp pair Template": {
+    "prefix": "iopair",
+    "body": [
+      "#include <iostream>",
+      "#include <utility>",
+      "using namespace std;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, utility header file and main function."
+  },
+
+  "Cpp stack Template": {
+    "prefix": "iostack",
+    "body": [
+      "#include <iostream>",
+      "#include <stack>",
+      "using namespace std;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, stack header file and main function."
+  },
+
+  "Cpp queue Template": {
+    "prefix": "ioque",
+    "body": [
+      "#include <iostream>",
+      "#include <queue>",
+      "using namespace std;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, queue header file and main function."
+  },
+
+  "Cpp deque Template": {
+    "prefix": "iodeque",
+    "body": [
+      "#include <iostream>",
+      "#include <deque>",
+      "using namespace std;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, deque header file and main function."
+  },
+
+  "Cpp priority_queue Template": {
+    "prefix": "iopq",
+    "body": [
+      "#include <iostream>",
+      "#include <queue>",
+      "using namespace std;",
+      "priority_queue<int> pq;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, queue header file and main function."
+  },
+
+  "Cpp list Template": {
+    "prefix": "iolist",
+    "body": [
+      "#include <iostream>",
+      "#include <list>",
+      "using namespace std;",
+      "list<int> l;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, list header file and main function."
+  },
+
+  "Cpp iterator Template": {
+    "prefix": "ioit",
+    "body": [
+      "#include <iostream>",
+      "#include <iterator>",
+      "using namespace std;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, iterator header file and main function."
+  },
+
+  "Cpp algorithm and vector Template": {
+    "prefix": "ioalvec",
+    "body": [
+      "#include <iostream>",
+      "#include <algorithm>",
+      "#include <vector>",
+      "using namespace std;",
+      "vector<int> v;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+
+    "description": "Creates iostream, algorithm, vector header file and main function."
+  },
+
+  "Cpp stack and vector Template": {
+    "prefix": "iostackvec",
+    "body": [
+      "#include <iostream>",
+      "#include <stack>",
+      "#include <vector>",
+      "using namespace std;",
+      "stack<int> s;",
+      "vector<int> v;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+
+    "description": "Creates iostream, stack, vector header file and main function."
+  },
+
+  "Hello, World! in C++": {
+    "prefix": "cpphello",
+    "body": [
+      "#include <iostream>",
+      "using namespace std;",
+      "int main() {",
+      "    cout << \"Hello World\" << endl;",
+      "    return 0;",
+      "}",
+      ""
+    ],
+    "description": "Hello, World! in C++"
   }
+
 }
