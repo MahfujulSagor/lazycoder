@@ -608,92 +608,92 @@
   // vector snippets with std already included
   "Vector Declaration": {
     "prefix": "vdec",
-    "body": ["${1:#include <vector>}","vector<$1> $2;"]
+    "body": ["vector<$1> $2;"]
   },
 
   "Vector Declaration with size": {
     "prefix": "vdecsize",
-    "body": ["${1:#include <vector>}","vector<$1> $2($3);"]
+    "body": ["vector<$1> $2($3);"]
   },
 
   "Vector Declaration with int": {
     "prefix": "vint",
-    "body": ["${1:#include <vector>}","vector<int> $1;"]
+    "body": ["vector<int> $1;"]
   },
 
   "Vector Declaration with string": {
     "prefix": "vstr",
-    "body": ["${1:#include <vector>}","vector<string> $1;"]
+    "body": ["vector<string> $1;"]
   },
 
   "Vector Declaration with char": {
     "prefix": "vchar",
-    "body": ["${1:#include <vector>}","vector<char> $1;"]
+    "body": ["vector<char> $1;"]
   },
 
   "Vector Declaration with double": {
     "prefix": "vdouble",
-    "body": ["${1:#include <vector>}","vector<double> $1;"]
+    "body": ["vector<double> $1;"]
   },
 
   "Vector Declaration with float": {
     "prefix": "vfloat",
-    "body": ["${1:#include <vector>}","vector<float> $1;"]
+    "body": ["vector<float> $1;"]
   },
 
   "Vector Declaration with bool": {
     "prefix": "vbool",
-    "body": ["${1:#include <vector>}","vector<bool> $1;"]
+    "body": ["vector<bool> $1;"]
   },
 
   "Vector Declaration with long long": {
     "prefix": "vll",
-    "body": ["${1:#include <vector>}","vector<long long> $1;"]
+    "body": ["vector<long long> $1;"]
   },
 
   // vector snippets without std already included
   "Vector Declaration without std": {
     "prefix": "stdvdec",
-    "body": ["${1:#include <vector>}","std::vector<$1> $2;"]
+    "body": ["std::vector<$1> $2;"]
   },
 
   "Vector Declaration with size without std": {
     "prefix": "stdvdecsize",
-    "body": ["${1:#include <vector>}","std::vector<$1> $2($3);"]
+    "body": ["std::vector<$1> $2($3);"]
   },
 
   "Vector Declaration with int without std": {
     "prefix": "stdvint",
-    "body": ["${1:#include <vector>}","std::vector<int> $1;"]
+    "body": ["std::vector<int> $1;"]
   },
 
   "Vector Declaration with string without std": {
     "prefix": "stdvstr",
-    "body": ["${1:#include <vector>}","std::vector<string> $1;"]
+    "body": ["std::vector<string> $1;"]
   },
 
   "Vector Declaration with char without std": {
     "prefix": "stdvchar",
-    "body": ["${1:#include <vector>}","std::vector<char> $1;"]
+    "body": ["std::vector<char> $1;"]
   },
 
   "Vector Declaration with double without std": {
     "prefix": "stdvdouble",
-    "body": ["${1:#include <vector>}","std::vector<double> $1;"]
+    "body": ["std::vector<double> $1;"]
   },
 
   "Vector Declaration with float without std": {
     "prefix": "stdvfloat",
-    "body": ["${1:#include <vector>}","std::vector<float> $1;"]
+    "body": ["std::vector<float> $1;"]
   },
 
   "Vector Declaration with bool without std": {
     "prefix": "stdvbool",
-    "body": ["${1:#include <vector>}", "std::vector<bool> $1;"]
+    "body": ["std::vector<bool> $1;"]
   },
 
   "Vector Declaration with long long without std": {
     "prefix": "stdvll",
-    "body": ["${1:#include <vector>}", "std::vector<long long> $1;"]
+    "body": ["std::vector<long long> $1;"]
   }
 }
