@@ -1,6 +1,6 @@
 {
   "Cpp All Template": {
-    "prefix": "ioall",
+    "prefix": "stdioall",
     "body": [
       "#include <bits/stdc++.h>",
       "using namespace std;",
@@ -13,8 +13,23 @@
     ],
     "description": "Creates all header file and main function."
   },
+
+  "Cpp All Template without std": {
+    "prefix": "ioall",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates all header file and main function."
+  },
+
   "Cpp iostream Template": {
-    "prefix": "io",
+    "prefix": "stdio",
     "body": [
       "#include <iostream>",
       "using namespace std;",
@@ -28,8 +43,22 @@
     "description": "Creates iostream header file and main function."
   },
 
+  "Cpp iostream Template without std": {
+    "prefix": "io",
+    "body": [
+      "#include <iostream>",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream header file and main function."
+  },
+
   "Cpp algorithm Template": {
-    "prefix": "ioal",
+    "prefix": "stdioal",
     "body": [
       "#include <iostream>",
       "#include <algorithm>",
@@ -44,8 +73,23 @@
     "description": "Creates iostream, algorithm header file and main function."
   },
 
+  "Cpp algorithm Template without std": {
+    "prefix": "ioal",
+    "body": [
+      "#include <iostream>",
+      "#include <algorithm>",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, algorithm header file and main function."
+  },
+
   "Cpp vector Template": {
-    "prefix": "iovec",
+    "prefix": "stdiovec",
     "body": [
       "#include <iostream>",
       "#include <vector>",
@@ -60,12 +104,42 @@
     "description": "Creates iostream, vector header file and main function."
   },
 
+  "Cpp vector Template without std": {
+    "prefix": "iovec",
+    "body": [
+      "#include <iostream>",
+      "#include <vector>",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, vector header file and main function."
+  },
+
   "Cpp string Template": {
-    "prefix": "iostr",
+    "prefix": "stdiostr",
     "body": [
       "#include <iostream>",
       "#include <string>",
       "using namespace std;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, string header file and main function."
+  },
+
+  "Cpp string Template without std": {
+    "prefix": "iostr",
+    "body": [
+      "#include <iostream>",
+      "#include <string>",
       "$0",
       "int main()",
       "{",
@@ -93,7 +167,7 @@
   },
 
   "Cpp map Template": {
-    "prefix": "iomap",
+    "prefix": "stdiomap",
     "body": [
       "#include <iostream>",
       "#include <map>",
@@ -108,8 +182,23 @@
     "description": "Creates iostream, map header file and main function."
   },
 
+  "Cpp map Template without std": {
+    "prefix": "iomap",
+    "body": [
+      "#include <iostream>",
+      "#include <map>",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, map header file and main function."
+  },
+
   "Cpp pair Template": {
-    "prefix": "iopair",
+    "prefix": "stdiopair",
     "body": [
       "#include <iostream>",
       "#include <utility>",
@@ -124,8 +213,23 @@
     "description": "Creates iostream, utility header file and main function."
   },
 
+  "Cpp pair Template without std": {
+    "prefix": "iopair",
+    "body": [
+      "#include <iostream>",
+      "#include <utility>",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, utility header file and main function."
+  },
+
   "Cpp stack Template": {
-    "prefix": "iostack",
+    "prefix": "stdiostack",
     "body": [
       "#include <iostream>",
       "#include <stack>",
@@ -140,8 +244,23 @@
     "description": "Creates iostream, stack header file and main function."
   },
 
+  "Cpp stack Template without std": {
+    "prefix": "iostack",
+    "body": [
+      "#include <iostream>",
+      "#include <stack>",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, stack header file and main function."
+  },
+
   "Cpp queue Template": {
-    "prefix": "ioque",
+    "prefix": "stdioque",
     "body": [
       "#include <iostream>",
       "#include <queue>",
@@ -156,8 +275,23 @@
     "description": "Creates iostream, queue header file and main function."
   },
 
+  "Cpp queue Template without std": {
+    "prefix": "ioque",
+    "body": [
+      "#include <iostream>",
+      "#include <queue>",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, queue header file and main function."
+  },
+
   "Cpp deque Template": {
-    "prefix": "iodeque",
+    "prefix": "stdiodeque",
     "body": [
       "#include <iostream>",
       "#include <deque>",
@@ -172,8 +306,23 @@
     "description": "Creates iostream, deque header file and main function."
   },
 
+  "Cpp deque Template without std": {
+    "prefix": "iodeque",
+    "body": [
+      "#include <iostream>",
+      "#include <deque>",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, deque header file and main function."
+  },
+
   "Cpp priority_queue Template": {
-    "prefix": "iopq",
+    "prefix": "stdiopq",
     "body": [
       "#include <iostream>",
       "#include <queue>",
@@ -189,12 +338,44 @@
     "description": "Creates iostream, queue header file and main function."
   },
 
+  "Cpp priority_queue Template without std": {
+    "prefix": "iopq",
+    "body": [
+      "#include <iostream>",
+      "#include <queue>",
+      "priority_queue<int> pq;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, queue header file and main function."
+  },
+
   "Cpp list Template": {
-    "prefix": "iolist",
+    "prefix": "stdiolist",
     "body": [
       "#include <iostream>",
       "#include <list>",
       "using namespace std;",
+      "list<int> l;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, list header file and main function."
+  },
+
+  "Cpp list Template without std": {
+    "prefix": "iolist",
+    "body": [
+      "#include <iostream>",
+      "#include <list>",
       "list<int> l;",
       "$0",
       "int main()",
@@ -223,7 +404,7 @@
   },
 
   "Cpp algorithm and vector Template": {
-    "prefix": "ioalvec",
+    "prefix": "stdioalvec",
     "body": [
       "#include <iostream>",
       "#include <algorithm>",
@@ -241,8 +422,25 @@
     "description": "Creates iostream, algorithm, vector header file and main function."
   },
 
+  "Cpp algorithm and vector Template without std": {
+    "prefix": "ioalvec",
+    "body": [
+      "#include <iostream>",
+      "#include <algorithm>",
+      "#include <vector>",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+
+    "description": "Creates iostream, algorithm, vector header file and main function."
+  },
+
   "Cpp stack and vector Template": {
-    "prefix": "iostackvec",
+    "prefix": "stdiostkvec",
     "body": [
       "#include <iostream>",
       "#include <stack>",
@@ -261,8 +459,27 @@
     "description": "Creates iostream, stack, vector header file and main function."
   },
 
+  "Cpp stack and vector Template without std": {
+    "prefix": "iostkvec",
+    "body": [
+      "#include <iostream>",
+      "#include <stack>",
+      "#include <vector>",
+      "stack<int> s;",
+      "vector<int> v;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+
+    "description": "Creates iostream, stack, vector header file and main function."
+  },
+
   "Hello, World! in C++": {
-    "prefix": "cpphello",
+    "prefix": "stdcpphello",
     "body": [
       "#include <iostream>",
       "using namespace std;",
@@ -275,116 +492,208 @@
     "description": "Hello, World! in C++"
   },
 
-  "Iostream Inclusion" : {
-    "prefix": "!io",
+  "Hello, World! in C++ without std": {
+    "prefix": "cpphello",
     "body": [
       "#include <iostream>",
-      "$0"
+      "int main() {",
+      "    std::cout << \"Hello World\" << std::endl;",
+      "    return 0;",
+      "}",
+      ""
     ],
+    "description": "Hello, World! in C++"
   },
 
-  "Algorithm inclusion" : {
+  "Iostream Inclusion": {
+    "prefix": "!io",
+    "body": ["#include <iostream>", "$0"]
+  },
+
+  "Algorithm inclusion": {
     "prefix": "!al",
-    "body": [
-      "#include <algorithm>",
-      "$0"
-    ],
+    "body": ["#include <algorithm>", "$0"]
   },
 
-  "Vector inclusion" : {
+  "Vector inclusion": {
     "prefix": "!vec",
-    "body": [
-      "#include <vector>",
-      "$0"
-    ],
+    "body": ["#include <vector>", "$0"]
   },
 
-  "String inclusion" : {
+  "String inclusion": {
     "prefix": "!str",
-    "body": [
-      "#include <string>",
-      "$0"
-    ],
+    "body": ["#include <string>", "$0"]
   },
 
-  "Set inclusion" : {
+  "Set inclusion": {
     "prefix": "!set",
-    "body": [
-      "#include <set>",
-      "$0"
-    ],
+    "body": ["#include <set>", "$0"]
   },
 
-  "Map inclusion" : {
+  "Map inclusion": {
     "prefix": "!map",
-    "body": [
-      "#include <map>",
-      "$0"
-    ],
+    "body": ["#include <map>", "$0"]
   },
 
-  "Pair inclusion" : {
+  "Pair inclusion": {
     "prefix": "!pair",
-    "body": [
-      "#include <utility>",
-      "$0"
-    ],
+    "body": ["#include <utility>", "$0"]
   },
 
-  "Stack inclusion" : {
+  "Stack inclusion": {
     "prefix": "!stack",
-    "body": [
-      "#include <stack>",
-      "$0"
-    ],
+    "body": ["#include <stack>", "$0"]
   },
 
-  "Queue inclusion" : {
+  "Queue inclusion": {
     "prefix": "!queue",
-    "body": [
-      "#include <queue>",
-      "$0"
-    ],
+    "body": ["#include <queue>", "$0"]
   },
 
-  "Deque inclusion" : {
+  "Deque inclusion": {
     "prefix": "!deque",
-    "body": [
-      "#include <deque>",
-      "$0"
-    ],
+    "body": ["#include <deque>", "$0"]
   },
 
-  "Priority Queue inclusion" : {
+  "Priority Queue inclusion": {
     "prefix": "!pq",
-    "body": [
-      "#include <queue>",
-      "$0"
-    ],
+    "body": ["#include <queue>", "$0"]
   },
 
-  "List inclusion" : {
+  "List inclusion": {
     "prefix": "!list",
-    "body": [
-      "#include <list>",
-      "$0"
-    ],
+    "body": ["#include <list>", "$0"]
   },
 
-  "Iterator inclusion" : {
+  "Iterator inclusion": {
     "prefix": "!it",
-    "body": [
-      "#include <iterator>",
-      "$0"
-    ],
+    "body": ["#include <iterator>", "$0"]
   },
 
-  "All Inclusion" : {
+  "All Inclusion": {
     "prefix": "!all",
-    "body": [
-      "#include <bits/stdc++.h>",
-      "$0"
-    ],
+    "body": ["#include <bits/stdc++.h>", "$0"]
   },
 
+  "Input with cin": {
+    "prefix": "in",
+    "body": ["cin >> $1;"]
+  },
+
+  "Output with endl": {
+    "prefix": "out",
+    "body": ["cout << $1 << endl;"]
+  },
+
+  "Input with getline": {
+    "prefix": "ing",
+    "body": ["getline(cin, $1);"]
+  },
+
+  "Input with std::getline": {
+    "prefix": "stding",
+    "body": ["std::getline(cin, $1);"]
+  },
+
+  "Output with std::cout": {
+    "prefix": "stdout",
+    "body": ["std::cout << $1 << std::endl;"]
+  },
+
+  "Input with std::cin": {
+    "prefix": "stdin",
+    "body": ["std::cin >> $1;"]
+  },
+
+  // vector snippets with std already included
+  "Vector Declaration": {
+    "prefix": "vdec",
+    "body": ["${1:#include <vector>}","vector<$1> $2;"]
+  },
+
+  "Vector Declaration with size": {
+    "prefix": "vdecsize",
+    "body": ["${1:#include <vector>}","vector<$1> $2($3);"]
+  },
+
+  "Vector Declaration with int": {
+    "prefix": "vint",
+    "body": ["${1:#include <vector>}","vector<int> $1;"]
+  },
+
+  "Vector Declaration with string": {
+    "prefix": "vstr",
+    "body": ["${1:#include <vector>}","vector<string> $1;"]
+  },
+
+  "Vector Declaration with char": {
+    "prefix": "vchar",
+    "body": ["${1:#include <vector>}","vector<char> $1;"]
+  },
+
+  "Vector Declaration with double": {
+    "prefix": "vdouble",
+    "body": ["${1:#include <vector>}","vector<double> $1;"]
+  },
+
+  "Vector Declaration with float": {
+    "prefix": "vfloat",
+    "body": ["${1:#include <vector>}","vector<float> $1;"]
+  },
+
+  "Vector Declaration with bool": {
+    "prefix": "vbool",
+    "body": ["${1:#include <vector>}","vector<bool> $1;"]
+  },
+
+  "Vector Declaration with long long": {
+    "prefix": "vll",
+    "body": ["${1:#include <vector>}","vector<long long> $1;"]
+  },
+
+  // vector snippets without std already included
+  "Vector Declaration without std": {
+    "prefix": "stdvdec",
+    "body": ["${1:#include <vector>}","std::vector<$1> $2;"]
+  },
+
+  "Vector Declaration with size without std": {
+    "prefix": "stdvdecsize",
+    "body": ["${1:#include <vector>}","std::vector<$1> $2($3);"]
+  },
+
+  "Vector Declaration with int without std": {
+    "prefix": "stdvint",
+    "body": ["${1:#include <vector>}","std::vector<int> $1;"]
+  },
+
+  "Vector Declaration with string without std": {
+    "prefix": "stdvstr",
+    "body": ["${1:#include <vector>}","std::vector<string> $1;"]
+  },
+
+  "Vector Declaration with char without std": {
+    "prefix": "stdvchar",
+    "body": ["${1:#include <vector>}","std::vector<char> $1;"]
+  },
+
+  "Vector Declaration with double without std": {
+    "prefix": "stdvdouble",
+    "body": ["${1:#include <vector>}","std::vector<double> $1;"]
+  },
+
+  "Vector Declaration with float without std": {
+    "prefix": "stdvfloat",
+    "body": ["${1:#include <vector>}","std::vector<float> $1;"]
+  },
+
+  "Vector Declaration with bool without std": {
+    "prefix": "stdvbool",
+    "body": ["${1:#include <vector>}", "std::vector<bool> $1;"]
+  },
+
+  "Vector Declaration with long long without std": {
+    "prefix": "stdvll",
+    "body": ["${1:#include <vector>}", "std::vector<long long> $1;"]
+  }
 }

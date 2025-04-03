@@ -2,9 +2,9 @@
   "name": "lazycoder",
   "displayName": "LazyCoder",
   "description": "A collection of different c++ code snippets",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "engines": {
-    "vscode": "^1.97.0"
+    "vscode": "^1.98.2"
   },
   "author": {
     "name": "Mahfujul Sagor",
@@ -18,11 +18,23 @@
     "C++ Boilerplates",
     "CPP Biolerplate",
     "C++ Extension",
-    "CPP Extension"
+    "CPP Extension",
+    "C++ Snippet Extension",
+    "CPP Snippet Extension",
+    "C++ Snippet Pack",
+    "CPP Snippet Pack",
+    "C++ Snippet Collection",
+    "CPP Snippet Collection",
+    "C++ Code Snippet",
+    "CPP Code Snippet",
+    "C++ Code",
+    "CPP Code",
+    "C++",
+    "CPP"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mahfujul-Sagor/lazycoder"
+    "url": "https://github.com/MahfujulSagor/lazycoder"
   },
   "icon": "cpp.png",
   "categories": [

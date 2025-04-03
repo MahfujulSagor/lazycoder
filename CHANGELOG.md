@@ -6,4 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+## Added
+
+- v0.0.2 Boilerplate iostream.
+- v0.0.3 Library Inclusion.
+- v1.0.0 Vector snippets.
