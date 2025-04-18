@@ -8,6 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## Added
 
+- v1.0.4 Map & Math header snippets.
 - v1.0.2 Update dependencies.
 - v1.0.1 Update snippets.
 - v1.0.0 Vector snippets.

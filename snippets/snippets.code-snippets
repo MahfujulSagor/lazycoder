@@ -290,6 +290,37 @@
     "description": "Creates iostream, queue header file and main function."
   },
 
+  "Cpp Math Template": {
+    "prefix": "stdiomath",
+    "body": [
+      "#include <iostream>",
+      "#include <cmath>",
+      "using namespace std;",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, cmath header file and main function."
+  },
+
+  "Cpp Math Template without std": {
+    "prefix": "iomath",
+    "body": [
+      "#include <iostream>",
+      "#include <cmath>",
+      "$0",
+      "int main()",
+      "{",
+      "    $1",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Creates iostream, cmath header file and main function."
+  },
+
   "Cpp deque Template": {
     "prefix": "stdiodeque",
     "body": [
@@ -505,6 +536,7 @@
     "description": "Hello, World! in C++"
   },
 
+  //? snippets for including header files
   "Iostream Inclusion": {
     "prefix": "!io",
     "body": ["#include <iostream>", "$0"]
@@ -523,6 +555,11 @@
   "String inclusion": {
     "prefix": "!str",
     "body": ["#include <string>", "$0"]
+  },
+
+  "Math inclusion": {
+    "prefix": "!math",
+    "body": ["#include <cmath>", "$0"]
   },
 
   "Set inclusion": {
@@ -575,6 +612,7 @@
     "body": ["#include <bits/stdc++.h>", "$0"]
   },
 
+  //? snippets for input and output
   "Input with cin": {
     "prefix": "in",
     "body": ["cin >> $1;"]
@@ -586,12 +624,12 @@
   },
 
   "Input with getline": {
-    "prefix": "ing",
+    "prefix": "getln",
     "body": ["getline(cin, $1);"]
   },
 
   "Input with std::getline": {
-    "prefix": "stding",
+    "prefix": "stdgetln",
     "body": ["std::getline(cin, $1);"]
   },
 
@@ -605,7 +643,7 @@
     "body": ["std::cin >> $1;"]
   },
 
-  // vector snippets with std already included
+  //? vector snippets with std already included
   "Vector Declaration": {
     "prefix": "vdec",
     "body": ["vector<$1> $2;"]
@@ -651,7 +689,7 @@
     "body": ["vector<long long> $1;"]
   },
 
-  // vector snippets without std already included
+  //? vector snippets without std already included
   "Vector Declaration without std": {
     "prefix": "stdvdec",
     "body": ["std::vector<$1> $2;"]
@@ -695,5 +733,73 @@
   "Vector Declaration with long long without std": {
     "prefix": "stdvll",
     "body": ["std::vector<long long> $1;"]
+  },
+
+  //? map snippets with std already included
+  "Map Declaration": {
+    "prefix": "mdec",
+    "body": ["map<$1> $2;"]
+  },
+  "Map Declaration with int": {
+    "prefix": "mint",
+    "body": ["map<int, int> $1;"]
+  },
+  "Map Declaration with string": {
+    "prefix": "mstr",
+    "body": ["map<string, int> $1;"]
+  },
+  "Map Declaration with char": {
+    "prefix": "mchar",
+    "body": ["map<char, int> $1;"]
+  },
+  "Map Declaration with double": {
+    "prefix": "mdouble",
+    "body": ["map<double, int> $1;"]
+  },
+  "Map Declaration with float": {
+    "prefix": "mfloat",
+    "body": ["map<float, int> $1;"]
+  },
+  "Map Declaration with bool": {
+    "prefix": "mbool",
+    "body": ["map<bool, int> $1;"]
+  },
+  "Map Declaration with long long": {
+    "prefix": "mll",
+    "body": ["map<long long, int> $1;"]
+  },
+
+  //? map snippets without std already included
+  "Map Declaration without std": {
+    "prefix": "stdmdec",
+    "body": ["std::map<$1> $2;"]
+  },
+  "Map Declaration with int without std": {
+    "prefix": "stdmint",
+    "body": ["std::map<int, int> $1;"]
+  },
+  "Map Declaration with string without std": {
+    "prefix": "stdmstr",
+    "body": ["std::map<string, int> $1;"]
+  },
+  "Map Declaration with char without std": {
+    "prefix": "stdmchar",
+    "body": ["std::map<char, int> $1;"]
+  },
+  "Map Declaration with double without std": {
+    "prefix": "stdmdouble",
+    "body": ["std::map<double, int> $1;"]
+  },
+  "Map Declaration with float without std": {
+    "prefix": "stdmfloat",
+    "body": ["std::map<float, int> $1;"]
+  },
+  "Map Declaration with bool without std": {
+    "prefix": "stdmbool",
+    "body": ["std::map<bool, int> $1;"]
+  },
+  "Map Declaration with long long without std": {
+    "prefix": "stdmll",
+    "body": ["std::map<long long, int> $1;"]
   }
 }

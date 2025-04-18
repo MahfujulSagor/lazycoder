@@ -20,67 +20,70 @@ Boost your C++ development productivity with the CPP Boilerplate Generator exten
 ## 📜 Snippets without namespace `std`
 
 | No  | CPP Snippet Without std | Header Files Include        |
-| :-- | :--------------------- | :-------------------------- |
-| 1   | io                     | iostream                    |
-| 2   | cpphello               | iostream, helloworld        |
-| 3   | ioal                   | iostream, algorithm         |
-| 4   | iovec                  | iostream, vector            |
-| 5   | iostr                  | iostream, string            |
-| 6   | ioset                  | iostream, set               |
-| 7   | iomap                  | iostream, map               |
-| 8   | iopair                 | iostream, utility           |
-| 9   | iostack                | iostream, stack             |
-| 10  | ioque                  | iostream, queue             |
-| 11  | iodeque                | iostream, deque             |
-| 12  | iopq                   | iostream, queue             |
-| 13  | iolist                 | iostream, list              |
-| 14  | ioit                   | iostream, iterator          |
-| 15  | ioalvec                | iostream, algorithm, vector |
-| 16  | iostackvec             | iostream, stack, vector     |
+| :-- | :---------------------- | :-------------------------- |
+| 1   | io                      | iostream                    |
+| 2   | cpphello                | iostream, helloworld        |
+| 3   | ioal                    | iostream, algorithm         |
+| 4   | iovec                   | iostream, vector            |
+| 5   | iostr                   | iostream, string            |
+| 6   | ioset                   | iostream, set               |
+| 7   | iomap                   | iostream, map               |
+| 7   | iomath                  | iostream, cmath             |
+| 8   | iopair                  | iostream, utility           |
+| 9   | iostack                 | iostream, stack             |
+| 10  | ioque                   | iostream, queue             |
+| 11  | iodeque                 | iostream, deque             |
+| 12  | iopq                    | iostream, queue             |
+| 13  | iolist                  | iostream, list              |
+| 14  | ioit                    | iostream, iterator          |
+| 15  | ioalvec                 | iostream, algorithm, vector |
+| 16  | iostackvec              | iostream, stack, vector     |
 
 ---
 
 ## 📜 Snippets with namespace `std`
 
 | No  | CPP Snippet With std | Header Files Include        |
-| :-- | :--------------------- | :-------------------------- |
-| 1   | io                     | iostream                    |
-| 2   | cpphello               | iostream, helloworld        |
-| 3   | ioal                   | iostream, algorithm         |
-| 4   | iovec                  | iostream, vector            |
-| 5   | iostr                  | iostream, string            |
-| 6   | ioset                  | iostream, set               |
-| 7   | iomap                  | iostream, map               |
-| 8   | iopair                 | iostream, utility           |
-| 9   | iostack                | iostream, stack             |
-| 10  | ioque                  | iostream, queue             |
-| 11  | iodeque                | iostream, deque             |
-| 12  | iopq                   | iostream, queue             |
-| 13  | iolist                 | iostream, list              |
-| 14  | ioit                   | iostream, iterator          |
-| 15  | ioalvec                | iostream, algorithm, vector |
-| 16  | iostackvec             | iostream, stack, vector     |
+| :-- | :------------------- | :-------------------------- |
+| 1   | stdio                | iostream                    |
+| 2   | stdcpphello          | iostream, helloworld        |
+| 3   | stdioal              | iostream, algorithm         |
+| 4   | stdiovec             | iostream, vector            |
+| 5   | stdiostr             | iostream, string            |
+| 6   | stdioset             | iostream, set               |
+| 7   | stdiomap             | iostream, map               |
+| 7   | stdiomath            | iostream, cmath             |
+| 8   | stdiopair            | iostream, utility           |
+| 9   | stdiostack           | iostream, stack             |
+| 10  | stdioque             | iostream, queue             |
+| 11  | stdiodeque           | iostream, deque             |
+| 12  | stdiopq              | iostream, queue             |
+| 13  | stdiolist            | iostream, list              |
+| 14  | stdioit              | iostream, iterator          |
+| 15  | stdioalvec           | iostream, algorithm, vector |
+| 16  | stdiostackvec        | iostream, stack, vector     |
 
 ---
 
 ## 📜 Library Inclusion
 
-| Prefix | Expands To |
-|--------|--------------------------------|
-| `!io`   | `#include <iostream>`        |
-| `!al`   | `#include <algorithm>`       |
-| `!vec`  | `#include <vector>`          |
-| `!str`  | `#include <string>`          |
-| `!set`  | `#include <set>`             |
-| `!map`  | `#include <map>`             |
-| `!pair` | `#include <utility>`         |
-| `!stack` | `#include <stack>`          |
-| `!queue` | `#include <queue>`          |
-| `!deque` | `#include <deque>`          |
-| `!pq` | `#include <queue>`             |
-| `!list` | `#include <list>`            |
-| `!it` | `#include <iterator>`         |
-| `!all` | `#include <bits/stdc++.h>`    |
+| Prefix   | Expands To                 |
+| -------- | -------------------------- |
+| `!io`    | `#include <iostream>`      |
+| `!al`    | `#include <algorithm>`     |
+| `!vec`   | `#include <vector>`        |
+| `!math`  | `#include <cmath>`         |
+| `!str`   | `#include <string>`        |
+| `!set`   | `#include <set>`           |
+| `!map`   | `#include <map>`           |
+| `!pair`  | `#include <utility>`       |
+| `!stack` | `#include <stack>`         |
+| `!queue` | `#include <queue>`         |
+| `!deque` | `#include <deque>`         |
+| `!pq`    | `#include <queue>`         |
+| `!list`  | `#include <list>`          |
+| `!it`    | `#include <iterator>`      |
+| `!all`   | `#include <bits/stdc++.h>` |
 
 ---
 
@@ -88,55 +91,23 @@ Boost your C++ development productivity with the CPP Boilerplate Generator exten
 
 ### With namespace `std`
 
-| Prefix    | Expands To                     |
-|-----------|---------------------------------|
-| `in`      | `cin >> $1;`                    |
-| `out`     | `cout << $1 << endl;`           |
-| `ing`     | `getline(cin, $1);`             |
-| `stding`  | `std::getline(cin, $1);`        |
-| `stdout`  | `std::cout << $1 << std::endl;` |
-| `stdin`   | `std::cin >> $1;`               |
-| `vdec`    | `std::vector<$1> $2;`           |
-| `vdecsize`| `std::vector<$1> $2($3);`       |
-| `vint`    | `std::vector<int> $1;`          |
-| `vstr`    | `std::vector<string> $1;`       |
-| `vchar`   | `std::vector<char> $1;`         |
-| `vdouble` | `std::vector<double> $1;`       |
-| `vfloat`  | `std::vector<float> $1;`        |
-| `vbool`   | `std::vector<bool> $1;`         |
-| `vll`     | `std::vector<long long> $1;`    |
-| `stdvdec` | `std::vector<$1> $2;`           |
-| `stdvdecsize`| `std::vector<$1> $2($3);`    |
-| `stdvint` | `std::vector<int> $1;`          |
-| `stdvstr` | `std::vector<string> $1;`       |
-| `stdvchar`| `std::vector<char> $1;`         |
-| `stdvdouble`| `std::vector<double> $1;`     |
-| `stdvfloat`| `std::vector<float> $1;`       |
-| `stdvbool`| `std::vector<bool> $1;`         |
-| `stdvll`  | `std::vector<long long> $1;`    |
+| Prefix     | Expands To                      |
+| ---------- | ------------------------------- |
+| `stdgetln` | `std::getline(cin, $1);`        |
+| `stdout`   | `std::cout << $1 << std::endl;` |
+| `stdin`    | `std::cin >> $1;`               |
+| `stdmdec`  | `std::map<$1> $2;`              |
+| `stdvdec`  | `std::vector<$1> $2;`           |
 
 ### Without namespace `std`
 
-| Prefix    | Expands To                     |
-|-----------|---------------------------------|
-| `vdec`    | `vector<$1> $2;`           |
-| `vdecsize`| `vector<$1> $2($3);`       |
-| `vint`    | `vector<int> $1;`          |
-| `vstr`    | `vector<string> $1;`       |
-| `vchar`   | `vector<char> $1;`         |
-| `vdouble` | `vector<double> $1;`       |
-| `vfloat`  | `vector<float> $1;`        |
-| `vbool`   | `vector<bool> $1;`         |
-| `vll`     | `vector<long long> $1;`    |
-| `stdvdec` | `std::vector<$1> $2;`           |
-| `stdvdecsize`| `std::vector<$1> $2($3);`    |
-| `stdvint` | `std::vector<int> $1;`          |
-| `stdvstr` | `std::vector<string> $1;`       |
-| `stdvchar`| `std::vector<char> $1;`         |
-| `stdvdouble`| `std::vector<double> $1;`     |
-| `stdvfloat`| `std::vector<float> $1;`       |
-| `stdvbool`| `std::vector<bool> $1;`         |
-| `stdvll`  | `std::vector<long long> $1;`    |
+| Prefix  | Expands To            |
+| ------- | --------------------- |
+| `in`    | `cin >> $1;`          |
+| `out`   | `cout << $1 << endl;` |
+| `getln` | `getline(cin, $1);`   |
+| `vdec`  | `vector<$1> $2;`      |
+| `mdec`  | `map<$1> $2;`         |
 
 ---
 
@@ -183,6 +154,18 @@ int main()
 ```cpp
 #include <iostream>
 #include <vector>
+using namespace std;
+int main()
+{
+    return 0;
+}
+```
+
+**4. iomath = iostream + cmath**
+
+```cpp
+#include <iostream>
+#include <cmath>
 using namespace std;
 int main()
 {
