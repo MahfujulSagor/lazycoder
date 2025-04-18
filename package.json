@@ -6,6 +6,10 @@
   "engines": {
     "vscode": "^1.70.0"
   },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
   "author": {
     "name": "Mahfujul Sagor",
     "email": "mahfujulsagor@gmail.com"
